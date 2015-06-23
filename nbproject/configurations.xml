@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>AddNodeState.h</itemPath>
+      <itemPath>AllDevicesState.h</itemPath>
+      <itemPath>AllNodes.h</itemPath>
+      <itemPath>Controller.h</itemPath>
+      <itemPath>EndState.h</itemPath>
+      <itemPath>EnumState.h</itemPath>
+      <itemPath>ErrorMessager.h</itemPath>
+      <itemPath>FileManager.h</itemPath>
+      <itemPath>HelpState.h</itemPath>
+      <itemPath>LiveState.h</itemPath>
+      <itemPath>MenuState.h</itemPath>
+      <itemPath>MonitorState.h</itemPath>
+      <itemPath>NetworkTester.h</itemPath>
+      <itemPath>NetworkTesterState.h</itemPath>
+      <itemPath>Node.h</itemPath>
+      <itemPath>Observer.h</itemPath>
+      <itemPath>Ping.h</itemPath>
+      <itemPath>PingObservable.h</itemPath>
+      <itemPath>RemoveNodeState.h</itemPath>
+      <itemPath>SaveState.h</itemPath>
+      <itemPath>StatState.h</itemPath>
+      <itemPath>StateInterface.h</itemPath>
+      <itemPath>Statistics.h</itemPath>
+      <itemPath>TimeStmp.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>AddNodeState.cpp</itemPath>
+      <itemPath>AllDevicesState.cpp</itemPath>
+      <itemPath>AllNodes.cpp</itemPath>
+      <itemPath>Controller.cpp</itemPath>
+      <itemPath>EndState.cpp</itemPath>
+      <itemPath>ErrorMessager.cpp</itemPath>
+      <itemPath>FileManager.cpp</itemPath>
+      <itemPath>HelpState.cpp</itemPath>
+      <itemPath>LiveState.cpp</itemPath>
+      <itemPath>MenuState.cpp</itemPath>
+      <itemPath>MonitorState.cpp</itemPath>
+      <itemPath>NetworkTester.cpp</itemPath>
+      <itemPath>NetworkTesterState.cpp</itemPath>
+      <itemPath>Node.cpp</itemPath>
+      <itemPath>Observer.cpp</itemPath>
+      <itemPath>Ping.cpp</itemPath>
+      <itemPath>PingObservable.cpp</itemPath>
+      <itemPath>RemoveNodeState.cpp</itemPath>
+      <itemPath>RunIO.cpp</itemPath>
+      <itemPath>SaveState.cpp</itemPath>
+      <itemPath>StatStates.cpp</itemPath>
+      <itemPath>StateInterface.cpp</itemPath>
+      <itemPath>Statistics.cpp</itemPath>
+      <itemPath>TimeStamp.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <commandLine>-pthread -std=c++11 -Wl,--no-as-needed</commandLine>
+        </ccTool>
+      </compileType>
+      <item path="AddNodeState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AddNodeState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AllDevicesState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AllDevicesState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AllNodes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AllNodes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Controller.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Controller.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EndState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="EndState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EnumState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ErrorMessager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ErrorMessager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FileManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FileManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HelpState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HelpState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LiveState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LiveState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MenuState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MenuState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MonitorState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MonitorState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NetworkTester.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="NetworkTester.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NetworkTesterState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="NetworkTesterState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Node.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Node.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Observer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Observer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Ping.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Ping.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PingObservable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PingObservable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RemoveNodeState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RemoveNodeState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RunIO.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SaveState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SaveState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StatState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StatStates.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StateInterface.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StateInterface.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Statistics.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Statistics.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TimeStamp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TimeStmp.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="AddNodeState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AddNodeState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AllDevicesState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AllDevicesState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AllNodes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AllNodes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Controller.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Controller.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EndState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="EndState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EnumState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ErrorMessager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ErrorMessager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FileManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FileManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HelpState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HelpState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LiveState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LiveState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MenuState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MenuState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MonitorState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MonitorState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NetworkTester.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="NetworkTester.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NetworkTesterState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="NetworkTesterState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Node.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Node.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Observer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Observer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Ping.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Ping.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PingObservable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PingObservable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RemoveNodeState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RemoveNodeState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RunIO.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SaveState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SaveState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StatState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StatStates.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StateInterface.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StateInterface.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Statistics.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Statistics.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TimeStamp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TimeStmp.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
